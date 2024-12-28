@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1734366194,
+        "narHash": "sha256-vykpJ1xsdkv0j8WOVXrRFHUAdp9NXHpxdnn1F4pYgSw=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "80b0fdf483c5d1cb75aaad909bd390d48673857f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-24.11",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1735171749,
+        "narHash": "sha256-UA56kDQSztRWbpsG9bK+jIGyZ0YZAcIsYAhXDHIr8zs=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "03b02bb3356e29e9d4d1200f9b1f5f36bf3780f0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-24.11-darwin",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "plugin-onedark": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-nmaoPXqOGZ9VmnAFk9cqkrLk2rSgrREHVkLE+QsAN9Y=",
+        "type": "file",
+        "url": "https://github.com/navarasu/onedark.nvim.git"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/navarasu/onedark.nvim.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "plugin-onedark": "plugin-onedark"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
